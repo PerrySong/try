@@ -76,22 +76,8 @@ class Project extends React.Component {
     const { classes } = this.props;
     console.log(this.state.showTech);
     console.log(this.props.techs)
-    // "name" : "Crypto Portfolio",
-    //         "desc" : "A Java-based web application with metadata fetched from the Last.fm APIs and processed using the multithreaded approach",
-    //         "techs" : [
-    //             "fab fa-js",
-    //             "fab fa-react",
-    //             "fab fa-node",
-    //             "fab fa-aws"
-    //         ],
-    //         "links" : [
-    //                 {
-    //                     "name" : "Github",
-    //                     "href" : "https://github.com/PerrySong/CryptoPortfolio-Nodejs"
-    //                 }
-    //             ]
     return (
-      <Grid item md={3}>
+      <Grid item md={4}>
         <Card className={classes.card} >
           <CardHeader
             avatar={
@@ -115,11 +101,18 @@ class Project extends React.Component {
               })}
             </div>
           }
-          <CardMedia
-            className={classes.media}
-            image="/static/images/cards/paella.jpg"
-            title="hahaahahahah"
-          />
+          {this.props.image ?
+            <CardMedia
+              className={classes.media}
+              image={this.props.image}
+              title=""
+            /> :
+            <CardMedia
+              className={classes.media}
+              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSljXFWcbsVy4spujHUWGbyQH26Vb5w4Y609yk-Ad2MnY2_3iJm"
+              title=""
+            /> 
+        }
           <CardContent>
             <Typography component="p">
               {this.props.desc}

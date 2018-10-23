@@ -5,7 +5,7 @@
     "github" : "https://github.com/PerrySong",
     "linkedin" : "www.linkedin.com/in/perrycrazycoding",
     "projects" : [
-        {   
+        {  
             "name" : "Crypto Portfolio",
             "desc" : "A Java-based web application with metadata fetched from the Last.fm APIs and processed using the multithreaded approach",
             "techs" : [
@@ -14,6 +14,11 @@
                 "node.js",
                 "aws"
             ],
+            "highlights" : [
+                "Designed and built a web-based cryptocurrency management social app worked in a team of 5 people. (CryptoCompared API)",
+                "Developed backend services using RESTful API with comprehensive documentation and successfully deployed onto AWS EC2. (Node.js, Express, React, Postgresql, AWS, Nginx, Markdown, JWT, Nodemailer.js)",
+                "Implemented a user-based investment recommendation system based on users’ current investment. (Raccoon.js, Redis)"
+                ],
             "links" : [
                     {
                         "name" : "Github",
@@ -47,8 +52,14 @@
             "name" : "AleperyChat",
             "desc" : "Online video chat Android app using Opentok and using Affectiva detect and evaluate users’ facial expression",
             "techs" : [
-                "fab fa-java",
-                "fab fa-android"
+                "android",
+                "java"
+            ],
+            "highlights" : [
+                "Implemented an online video chat Android app using Opentok and using Affectiva detect and evaluate users’ facial expression.",
+                "Used Firebase for user’s facial expression data storage and smoothed the user facial expression value by sliding windows.",
+                "Implemented Collaborative Filtering algorithm to compute user and dating partner’s real-time facial synchronization level to assess the affections of a chat."
+
             ],
             "links" : [
                     {
@@ -61,10 +72,16 @@
             "name" : "Real-Time News Web App",
             "desc" : "A real-time news scraping data pipeline which has news monitoring, scraping and deduping servic",
             "techs" : [
-                "fab fa-python",
-                "fab fa-node",
-                "fab fa-html5",
-                "fab fa-css3-alt"
+                "rabbitMQ",
+                "python",
+                "node.js",
+                "html5",
+                "css3"
+            ],
+            "highlights" : [
+                "Implemented a real-time news scraping data pipeline which has news monitoring, scraping and deduping services. (Python, News API)",
+                "Used RabbitMQ to connect different services, TF-IDF for deduping news, MongoDB for data storage and Node.js for news display."
+
             ],
             "links" : [
                     {
@@ -77,10 +94,16 @@
             "name" : "RESTful Campground Web App",
             "desc" : "A social media web application for users to share campgrounds",
             "techs" : [
-                "fab fa-js",
-                "fab fa-node",
-                "fab fa-html5",
-                "fab fa-css3-alt"
+                "javascript",
+                "node.js",
+                "html5",
+                "css3"
+            ],
+            "highlights" : [
+                "Designed a social media web application for users to share campgrounds and deployed this app on Heroku.", 
+                "Application features include but not limited: recommend similar songs by title, tags, or artist names, authentication, authorization, search history, popular searches, favorite songs, and partial search.",
+                "Wrote reusable HTML templates using EJS view engine and styled web pages using Bootstrap." 
+
             ],
             "links" : [
                     {
